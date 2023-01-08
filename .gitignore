@@ -1,0 +1,28 @@
+# NextJS
+frontend\node_modules
+frontend\.next
+# .venv
+.env 
+.venv 
+env/ 
+venv/ 
+ENV/ 
+env.bak/ 
+venv.bak/ 
+# vs code
+.vscode/* 
+.vscode/settings.json 
+.vscode/tasks.json 
+.vscode/launch.json 
+.vscode/extensions.json 
+.history
+# django
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+# other
+znotes.txt

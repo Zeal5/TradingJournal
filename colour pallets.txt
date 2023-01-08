@@ -1,0 +1,29 @@
+If you want to use a color palette that is primarily black and white with a touch of purple, there are a few options you could consider for the tables and widgets showing trades and trade analysis.
+
+One option is to use shades of purple for the tables and widgets to add a pop of color to the overall design. For example, you could use a deep plum or violet color for the tables and a lighter shade of purple,
+ such as lavender or periwinkle, for the widgets.
+
+Another option is to use a neutral color, such as a light grey or beige, for the tables and widgets. This will help them blend in with the overall black and white color scheme, 
+while still providing a clear visual contrast between the different elements on the page.
+
+If you want to add a little more visual interest, you could also consider using purple as an accent color for select elements, such as headings or buttons. 
+This can help draw the eye to important information and give your website a cohesive look.
+
+
+
+
+Tassadiq Shakeel
+can you give me hex colors for all the colors you mentioned also tell me background color hex value
+Sure! Here are the hex codes for some of the colors I mentioned:
+
+Deep plum: #5D3A6D
+Violet: #8B2252
+Lavender: #E6E6FA
+Periwinkle: #CCCCFF
+Light grey: #D3D3D3
+Beige: #F5F5DC
+As for the background color, it really depends on the overall aesthetic you want to create for your trading journal website. 
+A neutral color such as white (#FFFFFF), light grey (#D3D3D3), or beige (#F5F5DC) can work well as a background color, as it will create a clean and uncluttered look that is easy to read.
+
+Alternatively, if you want to create a more dramatic or sophisticated look, you could consider using a darker color such as black (#000000) or a deep purple or plum shade (#5D3A6D or #8B2252). 
+Just be mindful that using a darker background color can make text more difficult to read, so you may want to consider using a lighter font color to make the text more legible.

@@ -1,0 +1,14 @@
+
+
+.welcome{
+    text-align: center;
+   font-size: x-large;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.maintext{
+    margin: 50px 20% 50px 20%;
+    text-align: center;
+    line-height: 1.5;
+}
