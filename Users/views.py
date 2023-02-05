@@ -4,9 +4,13 @@ from django.http import response
 # Create your views here.
 
 
-def first(request,id) -> HttpResponse:
+def first(request,id,*args) -> HttpResponse:
+    id = [id]
+    if args:
+        id.append(args)
+    print(id)
     context = {
-        "id" : [id]
+        "id" : id
     }
     return render(request,"users/index.html",context)
 
