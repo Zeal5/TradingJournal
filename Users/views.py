@@ -4,3 +4,4 @@ from django.http import HttpResponse
 
 def first(request,id, name) -> HttpResponse:
     return HttpResponse(f"hi {id} {name}")
+
