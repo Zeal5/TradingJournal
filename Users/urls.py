@@ -1,7 +1,6 @@
-from django.urls import path
+from django.urls import path, re_path
 from .views import first
 
 urlpatterns =[
-    path("<int:id>",first,name="index"),
-    path("<int:id>/<int:args>/",first,name="index")
+    path("",first,name="index"),
 ]
