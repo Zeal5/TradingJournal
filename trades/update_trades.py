@@ -31,8 +31,8 @@ class Orders:
         )
 
         self.name = str(name)
-        logger.info(f"{self.name} account initiated")
 
     def __str__(self) -> str:
         return f"Account {(self.name).upper()}"
 
+    def 
