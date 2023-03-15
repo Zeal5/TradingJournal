@@ -66,5 +66,5 @@ class Orders:
 # json_data = Orders("A").trade_records("MATICUSDT")["result"]["data"]
 # print(json_data)
 
-df = pd.json_normalize(data)
-print(df)
+# df = pd.json_normalize(data)
+# print(df)
