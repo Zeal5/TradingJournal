@@ -8,26 +8,7 @@ from dotenv import dotenv_values
 
 config = dotenv_values(".env")
 ###########
-# stop imported moduels from logging
-logging.getLogger().setLevel(logging.WARNING)
-for handler in logging.getLogger().handlers:
-    handler.setLevel(logging.WARNING)
 
-
-# logging.basicConfig(
-#     level=logging.INFO,
-#     filename="Live_Positions.log",
-#     format="%(levelname)s - %(asctime)s -  %(message)s",
-#     datefmt="%m-%d %H:%M:%S",
-# )
-# initiate custom moduel
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-handler = logging.FileHandler("Live_Positions.log")
-handler.setLevel(logging.INFO)
-formatter = logging.Formatter("%(levelname)s - %(asctime)s - %(message)s")
-handler.setFormatter(formatter)
-logger.addHandler(handler)
 
 
 class Orders:
