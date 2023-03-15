@@ -5,12 +5,10 @@ import pandas as pd
 
 ########
 from dotenv import dotenv_values
-
 config = dotenv_values("trades\.env")
 ###########
-data = [
-    {
-        "side": "Sell",
+pnl = {}
+data = [{"side": "Sell",
         "symbol": "SOLUSDT",
         "price": 19.662,
         "order_price": 19.662,
@@ -18,10 +16,8 @@ data = [
         "exec_price": 20.696,
         "exec_qty": 0.1,
         "exec_value": 2.0696,
-        "closed_size": 0.1,
-    },
-    {
-        "side": "Buy",
+        "closed_size": 0.1,},
+        {"side": "Buy",
         "symbol": "SOLUSDT",
         "price": 21.721,
         "order_price": 21.721,
@@ -29,12 +25,19 @@ data = [
         "exec_price": 20.687,
         "exec_qty": 0.1,
         "exec_value": 2.0687,
-        "closed_size": 0,
+        "closed_size": 0, },]
+trade_counter_Buy = 0
+trade_counter_Sell = 0
+for trade in reversed(data):
+    if trade['closed_size'] == 0 and trade['side'] == "Buy":
+        trade_counter_Buy += 1
+        pnl[f'{trade["side"]}{trade_counter_Buy}'] = {trade["side"] :trade}
 
-    },
-]
+    elif trade['closed_size'] != 0:
+        pnl[trade_counter] = trade 
 
 
+print(pnl)
 class Orders:
     """Creates an Instance for all accounts \n\n
     name = account name\n
